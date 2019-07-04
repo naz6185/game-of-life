@@ -1,0 +1,9 @@
+node{
+  stage('SCM Checkout'){
+    git 'https://github.com/naz6185/game-of-life/tree/master/gameoflife-web'
+    }
+  stage('Compile Package'){
+    sh 'mvn package'
+    }
+    
+ }
