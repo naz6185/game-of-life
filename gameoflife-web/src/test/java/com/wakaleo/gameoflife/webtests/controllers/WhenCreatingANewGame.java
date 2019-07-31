@@ -43,5 +43,12 @@ public class WhenCreatingANewGame {
         assertThat((Integer) homeView.getModel().get("columns"), is(5));
 
     }
+    
+    @Test		
+    public void myFailMethod(){					
+        String str= "JUnit is working fine";					
+        assertEquals("JUnit is not working fine",str);					
+    }
+
 }	
 
