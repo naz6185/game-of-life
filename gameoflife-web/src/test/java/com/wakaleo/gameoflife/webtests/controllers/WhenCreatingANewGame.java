@@ -45,11 +45,11 @@ public class WhenCreatingANewGame {
 
     }
     
-    @Test		
-    public void myFailMethod(){					
-        String str= "JUnit is working fine";					
-        assertEquals("JUnit is not working fine",str);					
-    }
+    //@Test		
+    //public void myFailMethod(){					
+       // String str= "JUnit is working fine";					
+        //assertEquals("JUnit is not working fine",str);					
+    //}
 
 }	
 
